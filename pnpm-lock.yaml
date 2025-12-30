@@ -17,6 +17,9 @@ importers:
       '@media-master/http-errors':
         specifier: ^1.0.0
         version: 1.0.0
+      '@media-master/import-service-tests':
+        specifier: ^1.0.1
+        version: 1.0.1
       '@media-master/load-dotenv':
         specifier: ^1.0.0
         version: 1.0.0
@@ -367,6 +370,9 @@ packages:
 
   '@media-master/http-errors@1.0.0':
     resolution: {integrity: sha512-MeRdMjiFN09RIS/HHIROP7Vs1EcCqo8Hzw3tmH5EzB0loJarKHgD0qw2pLac8vJO35Ze1Dkv4jprokMf7kyVCQ==}
+
+  '@media-master/import-service-tests@1.0.1':
+    resolution: {integrity: sha512-86LZiwwVLz/lPIkfSC+1JOE7K1yvQEbhs0l98Cm2kH3PfRQ5w/gUZPVowzr/Dy3ROOKxPQi/bn4dY7vY1H3ssw==}
 
   '@media-master/load-dotenv@1.0.0':
     resolution: {integrity: sha512-W7twWl6q/Br18G/P7rUX1I6OD+4t0SXwL6gb49E4Tc1xWv/iUAQHtg9LCViukHDH0930kFs6hzgnLBwRqElHAA==}
@@ -2178,6 +2184,8 @@ snapshots:
       - supports-color
 
   '@media-master/http-errors@1.0.0': {}
+
+  '@media-master/import-service-tests@1.0.1': {}
 
   '@media-master/load-dotenv@1.0.0':
     dependencies:
