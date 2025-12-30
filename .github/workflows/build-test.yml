@@ -39,7 +39,8 @@ jobs:
 
       - name: Generate .env from .env.example
         shell: bash
-        # env: Add variables for .env
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: |
           > .env
 

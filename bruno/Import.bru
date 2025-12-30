@@ -1,0 +1,19 @@
+meta {
+  name: Import
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/import?id={{validId}}
+  body: none
+  auth: none
+}
+
+params:query {
+  id: {{validId}}
+}
+
+settings {
+  encodeUrl: true
+}

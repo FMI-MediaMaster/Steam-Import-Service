@@ -1,10 +1,8 @@
-import userController from '@controllers/user';
+import steamController from '@controllers/steam';
 import { Router } from 'express';
-import { createRouter } from '@media-master/express-crud-router';
 
 const routes: Router = Router();
 
-routes.use('/users', createRouter(userController));
+routes.use('/:method', steamController.handler);
 
 export default routes;
-
