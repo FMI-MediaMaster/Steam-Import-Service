@@ -1,12 +1,12 @@
 services:
-  <NAME>:
+  steam-import-service:
     restart: always
     build:
       context: .
       dockerfile: Dockerfile
-    image: <NAME>:latest
-    hostname: <NAME>.mediamaster.internal
-    container_name: <NAME>.mediamaster.internal
+    image: steam-import-service:latest
+    hostname: steam-import-service.mediamaster.internal
+    container_name: steam-import-service.mediamaster.internal
     volumes:
       - ./.env:/app/.env:ro
     networks:
